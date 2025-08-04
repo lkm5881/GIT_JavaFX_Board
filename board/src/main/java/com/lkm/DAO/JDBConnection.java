@@ -27,8 +27,8 @@ public class JDBConnection {
 			//		* 내 PC의 IP주소 : localhost : 127.0.0.1
 			//		* 3306 : MySQL 데이터베이스의 기본 포트
 			String url = "jdbc:mysql://127.0.0.1:3306/board?serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true&useSSL=false";
-			String id = "aloha";
-			String pw = "123456";
+			String id = "root";
+			String pw = "2rlals";
 			
 			// 자바 프로그램에서 JDBC 드라이버를 연결시켜주는 클래스
 			// getConnection() 메소드로 DB에 연결 요청하고 생성된 Connection 객체를 반환받는다.
